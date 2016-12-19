@@ -24,13 +24,8 @@ namespace SBPMSearchTest03
 		MainPage();
 
 	public:
-		void FlowchartCanvasInit(int width, int height, int rowNum, int columnNum);
-		void rowAppend();
-		void columnAppend();
 
 	private:
-		void RowAppendButton_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
-		void ColumnAppendButton_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
-		void ScrollViewer_SizeChanged(Platform::Object^ sender, Windows::UI::Xaml::SizeChangedEventArgs^ e);
+
 	};
 }

@@ -50,34 +50,16 @@
             </Grid>
         </AppBar>
 
-        <ScrollViewer Grid.Row="1" Grid.ColumnSpan="2"
+        <ScrollViewer Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
                       HorizontalScrollBarVisibility="Visible"
-                      VerticalScrollBarVisibility="Visible"
-                      SizeChanged="ScrollViewer_SizeChanged">
-            <Grid x:Name="flowchartCanvas">
-                <Grid.Resources>
-                    <Style x:Name="gridRectStyle" TargetType="Rectangle" x:Key="gridRectStyle">
-                        <Setter Property="StrokeThickness" Value="1"/>
-                        <Setter Property="Stroke" Value="Gray"/>
-                        <Setter Property="Fill" Value="Transparent"/>
-                    </Style>
-                </Grid.Resources>
-                <Grid.RowDefinitions>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                </Grid.ColumnDefinitions>
-
-                <Rectangle Style="{StaticResource gridRectStyle}"/>
-            </Grid>
+                      VerticalScrollBarVisibility="Visible">
+            <Frame Name="FlowChartCanvasFrame" AllowDrop="True">
+                
+            </Frame>
         </ScrollViewer>
 
         <ListView Grid.Row="1" Grid.Column="2">
-            <Button Width="150" Height="50"
-                    Content="가로 추가"
-                    Click="RowAppendButton_Click"/>
-            <Button Width="150" Height="50"
-                    Content="세로 추가"
-                    Click="ColumnAppendButton_Click"/>
+            
         </ListView>
     </Grid>
 </Page>
