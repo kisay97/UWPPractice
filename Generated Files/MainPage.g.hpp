@@ -29,36 +29,24 @@ void ::SBPMSearchTest03::MainPage::Connect(int __connectionId, ::Platform::Objec
     {
         case 1:
             {
-                ::Windows::UI::Xaml::Controls::ScrollViewer^ element1 = safe_cast<::Windows::UI::Xaml::Controls::ScrollViewer^>(__target);
-                (safe_cast<::Windows::UI::Xaml::Controls::ScrollViewer^>(element1))->SizeChanged += ref new ::Windows::UI::Xaml::SizeChangedEventHandler(this, (void (::SBPMSearchTest03::MainPage::*)
-                    (::Platform::Object^, ::Windows::UI::Xaml::SizeChangedEventArgs^))&MainPage::ScrollViewer_SizeChanged);
+                ::Windows::UI::Xaml::Controls::Button^ element1 = safe_cast<::Windows::UI::Xaml::Controls::Button^>(__target);
+                (safe_cast<::Windows::UI::Xaml::Controls::Button^>(element1))->Click += ref new ::Windows::UI::Xaml::RoutedEventHandler(this, (void (::SBPMSearchTest03::MainPage::*)
+                    (::Platform::Object^, ::Windows::UI::Xaml::RoutedEventArgs^))&MainPage::RowAppendButton_Click);
             }
             break;
         case 2:
             {
                 ::Windows::UI::Xaml::Controls::Button^ element2 = safe_cast<::Windows::UI::Xaml::Controls::Button^>(__target);
                 (safe_cast<::Windows::UI::Xaml::Controls::Button^>(element2))->Click += ref new ::Windows::UI::Xaml::RoutedEventHandler(this, (void (::SBPMSearchTest03::MainPage::*)
-                    (::Platform::Object^, ::Windows::UI::Xaml::RoutedEventArgs^))&MainPage::RowAppendButton_Click);
+                    (::Platform::Object^, ::Windows::UI::Xaml::RoutedEventArgs^))&MainPage::ColumnAppendButton_Click);
             }
             break;
         case 3:
             {
-                ::Windows::UI::Xaml::Controls::Button^ element3 = safe_cast<::Windows::UI::Xaml::Controls::Button^>(__target);
-                (safe_cast<::Windows::UI::Xaml::Controls::Button^>(element3))->Click += ref new ::Windows::UI::Xaml::RoutedEventHandler(this, (void (::SBPMSearchTest03::MainPage::*)
-                    (::Platform::Object^, ::Windows::UI::Xaml::RoutedEventArgs^))&MainPage::ColumnAppendButton_Click);
+                this->FlowChartCanvasFrame = safe_cast<::Windows::UI::Xaml::Controls::Frame^>(__target);
             }
             break;
         case 4:
-            {
-                this->flowchartCanvas = safe_cast<::Windows::UI::Xaml::Controls::Grid^>(__target);
-            }
-            break;
-        case 5:
-            {
-                this->gridRectStyle = safe_cast<::Windows::UI::Xaml::Style^>(__target);
-            }
-            break;
-        case 6:
             {
                 this->titleTextBox = safe_cast<::Windows::UI::Xaml::Controls::TextBox^>(__target);
             }

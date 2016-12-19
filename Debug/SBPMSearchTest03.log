@@ -1,5 +1,7 @@
-﻿  MainPage.xaml.cpp
-c:\users\choi gyugwang\documents\visual studio 2015\projects\universalwindowplatformpractice\sbpmsearchtest03\mainpage.xaml.cpp(71): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-c:\users\choi gyugwang\documents\visual studio 2015\projects\universalwindowplatformpractice\sbpmsearchtest03\mainpage.xaml.cpp(89): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+﻿  FlowChartCanvas.xaml.cpp
+  MainPage.xaml.cpp
+c:\users\choi gyugwang\documents\visual studio 2015\projects\universalwindowplatformpractice\sbpmsearchtest03\flowchartcanvas.xaml.cpp(70): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\choi gyugwang\documents\visual studio 2015\projects\universalwindowplatformpractice\sbpmsearchtest03\flowchartcanvas.xaml.cpp(88): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  XamlTypeInfo.g.cpp
   SBPMSearchTest03.vcxproj -> C:\Users\Choi Gyugwang\Documents\Visual Studio 2015\Projects\UniversalWindowPlatformPractice\Debug\SBPMSearchTest03\SBPMSearchTest03.exe
   SBPMSearchTest03.vcxproj -> C:\Users\Choi Gyugwang\Documents\Visual Studio 2015\Projects\UniversalWindowPlatformPractice\Debug\SBPMSearchTest03\SBPMSearchTest03.pdb (Partial PDB)

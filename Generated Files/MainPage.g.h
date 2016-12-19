@@ -11,16 +11,9 @@ namespace Windows {
     namespace UI {
         namespace Xaml {
             namespace Controls {
-                ref class Grid;
+                ref class Frame;
                 ref class TextBox;
             }
-        }
-    }
-}
-namespace Windows {
-    namespace UI {
-        namespace Xaml {
-            ref class Style;
         }
     }
 }
@@ -40,8 +33,7 @@ namespace SBPMSearchTest03
     private:
         bool _contentLoaded;
     
-        private: ::Windows::UI::Xaml::Controls::Grid^ flowchartCanvas;
-        private: ::Windows::UI::Xaml::Style^ gridRectStyle;
+        private: ::Windows::UI::Xaml::Controls::Frame^ FlowChartCanvasFrame;
         private: ::Windows::UI::Xaml::Controls::TextBox^ titleTextBox;
     };
 }

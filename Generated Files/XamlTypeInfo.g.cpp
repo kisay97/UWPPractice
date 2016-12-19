@@ -9,9 +9,11 @@
 #include "pch.h"
 #include "XamlTypeInfo.g.h"
 
+#include "FlowChartCanvas.xaml.h"
 #include "App.xaml.h"
 #include "MainPage.xaml.h"
 #include "XamlBindingInfo.g.hpp"
+#include "FlowChartCanvas.g.hpp"
 #include "App.g.hpp"
 #include "MainPage.g.hpp"
 
@@ -72,6 +74,12 @@ TypeInfo TypeInfos[] =
     0, 0, ::Windows::UI::Xaml::Interop::TypeKind::Metadata,
     false, true,  false, false,
     //   2
+    L"SBPMSearchTest03.FlowChartCanvas", L"",
+    &ActivateType<::SBPMSearchTest03::FlowChartCanvas>, nullptr, nullptr, nullptr,
+    1, // Windows.UI.Xaml.Controls.Page
+    0, 0, ::Windows::UI::Xaml::Interop::TypeKind::Custom,
+    true,  false, false, false,
+    //   3
     L"Windows.UI.Xaml.Controls.UserControl", L"",
     nullptr, nullptr, nullptr, nullptr,
     -1,
@@ -119,11 +127,11 @@ UINT TypeInfoLookup[] = {
       2,   //  30
       2,   //  31
       2,   //  32
-      2,   //  33
-      2,   //  34
-      2,   //  35
-      2,   //  36
-      3,   //  37
+      3,   //  33
+      3,   //  34
+      3,   //  35
+      3,   //  36
+      4,   //  37
 };
 
 TypeInfo* GetTypeInfo(::Platform::String^ typeName)
